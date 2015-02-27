@@ -6,4 +6,5 @@ package com.sample.collections;
 
 public class MainCollection {
 
+	
 }
