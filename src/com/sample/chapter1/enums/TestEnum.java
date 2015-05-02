@@ -8,7 +8,8 @@ public class TestEnum {
 	
 	public static void main(String args[]){
 		
-		System.out.println(Season.SUMMER);
+		System.out.println(UserStatus.PENDING.getStatusCode());
+		
 	}
 	
 	

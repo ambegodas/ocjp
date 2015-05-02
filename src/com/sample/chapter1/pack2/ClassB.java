@@ -8,7 +8,7 @@ package com.sample.chapter1.pack2;
 
 public class ClassB {
 
-   protected static	int b = 5;
+    protected static	int b = 5;
 	
 	
 
