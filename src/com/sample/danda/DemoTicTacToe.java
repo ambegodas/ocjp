@@ -17,6 +17,7 @@ public class DemoTicTacToe {
 		
 		Best myBest = new Best();
 		Best reply;
+		return myBest;
 		
 	}
 	
