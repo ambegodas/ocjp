@@ -10,6 +10,16 @@ public class WaitNotifyDemo {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		
+//		synchronized(args){
+//			try {
+//				args.wait();
+//			} catch (InterruptedException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			}
+//		}
+		
 		Message msg = new Message("process it");
         Waiter waiter = new Waiter(msg);
         new Thread(waiter,"waiter").start();

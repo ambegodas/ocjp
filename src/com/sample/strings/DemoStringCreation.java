@@ -14,7 +14,7 @@ public class DemoStringCreation {
 		
 		String s2 = "Pathmasri";
 		
-		//New object will be created regardles of the pool with new key word
+		//New object will be created regardless of the pool with new key word
 		String s3 = new String("Pathmasri");
 	}
 

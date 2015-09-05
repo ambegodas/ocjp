@@ -5,5 +5,9 @@
 package com.sample.chapter2.inheritence;
 
 public class ClassB extends ClassA {
+	
+  public  void test(){
+		super.test();
+	}
 
 }

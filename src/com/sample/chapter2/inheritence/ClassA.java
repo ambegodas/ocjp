@@ -4,6 +4,10 @@
  */
 package com.sample.chapter2.inheritence;
 
-public class ClassA {
+public class ClassA  {
+	
+	public void test(){
+		System.out.println("rset");
+	}
 
 }

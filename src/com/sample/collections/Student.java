@@ -4,7 +4,7 @@
  */
 package com.sample.collections;
 
-public class Student {
+public class Student implements Comparable<Student>{
 
 	private String name;
 	private int studentId;
@@ -39,8 +39,38 @@ public class Student {
 		this.studentId = studentId;
 	}
 	
+	public boolean equals(Object o){
+		
+		if(o != null && o instanceof Student){
+			
+			Student st = (Student)o;
+			
+			if(st.getName().equals(this.getName())){
+				return true;
+			} else {
+				return false;
+			}
+		} else{
+			return false;	
+		}
+		
+		
+		
+	}
 	
+	public int hashCode(){
+		return this.getStudentId();
+	}
 	
+
+	/* (non-Javadoc)
+	 * @see java.lang.Comparable#compareTo(java.lang.Object)
+	 */
+	@Override
+	public int compareTo(Student o) {
+		// TODO Auto-generated method stub
+		return o.getName().compareTo(this.getName());
+	}
 	
 	
 	

@@ -11,9 +11,7 @@ public class TestEnum {
 		System.out.println(UserStatus.PENDING.getStatusCode());
 		
 	}
-	
-	
-	
+		
 	public enum UserStatus {
 		PENDING("P"), ACTIVE("A"), INACTIVE("I"), DELETED("D");
 	 
@@ -28,6 +26,6 @@ public class TestEnum {
 		}
 	}
 	
-	enum Season {SUMMER,VINTER}
+	enum Season {SUMMER,VINTER}; //semi colon is optional
 
 }
